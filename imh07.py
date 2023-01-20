@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 st.title('Graph Land')
-st.title('Let do it with us!!! _italics_ :deeppink[colors] and emojis :cake:')
+st.title('Let do it with us!!! _I can streamlit_ :green[colors] and emojis :icecream:')
 
 money = pd.read_csv("money_data7.csv")
 
