@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 st.title('Graph Land')
-st.title('_Korea - America!_ :green[Money data] :coin:')
+st.title('_Korea - America!_ :green[Money data] :gold:')
 
 money = pd.read_csv("money_data7.csv")
 
