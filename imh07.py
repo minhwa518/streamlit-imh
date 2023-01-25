@@ -7,6 +7,8 @@ st.title('_Korea - America!_ :green[Money data] :sushi:')
 
 money = pd.read_csv("money_data7.csv")
 
+st.sidebar.success("Select a demo above.")
+
 option = st.selectbox(
     'How would you like to choice year ?',
     ('2020', '2021', '2022'))
