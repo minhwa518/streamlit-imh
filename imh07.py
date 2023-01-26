@@ -7,7 +7,12 @@ import numpy as np
 
 #st.sidebar.success("Select a demo above.")
 
+
 def  plotting_demo():
+    
+    st.title('Graph Land')
+    st.title('_Korea - America_ :green[Money data] :sushi:')
+    
     money = pd.read_csv("money_data7.csv")
     option = st.selectbox(
         'How would you like to choice year ?',
