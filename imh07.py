@@ -3,6 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
+st.title('Graph Land')
+st.title('_Korea - America_ :green[Money data] :sushi:')
+
 #money = pd.read_csv("money_data7.csv")
 
 #st.sidebar.success("Select a demo above.")
@@ -48,7 +51,7 @@ def  plotting_demo():
 with st.form(key ='Form1'):
     with st.sidebar:
         
-        select_language = st.sidebar.radio('What do you want ?', ('line', 'bar', 'pie', 'histogram', 'corr', 'word', 'box'))
+        select_language = st.sidebar.radio('What do you want ?', ('line graph', 'bar graph', 'pie graph', 'histogram graph', 'corr graph', 'word graph', 'box graph'))
         
         
 if select_language =='line':        
