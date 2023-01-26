@@ -3,9 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-st.title('Graph Land')
-st.title('_Korea - America_ :green[Money data] :sushi:')
-
 #money = pd.read_csv("money_data7.csv")
 
 #st.sidebar.success("Select a demo above.")
