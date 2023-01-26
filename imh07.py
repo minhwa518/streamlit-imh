@@ -10,8 +10,8 @@ import numpy as np
 
 def  plotting_demo():
     
-    st.title('Graph Land')
-    st.title('_Korea - America_ :green[Money data] :sushi:')
+    st.title('<Graph Land>')
+    st.title('_Korea - America_ :green[Money data] :100:')
     
     money = pd.read_csv("money_data7.csv")
     option = st.selectbox(
