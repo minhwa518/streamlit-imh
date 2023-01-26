@@ -10,7 +10,7 @@ import numpy as np
 
 def  plotting_demo():
     
-    st.title('<IMH :heavy black heart Graph Land>')
+    st.title('<IMH :heavy black heart: Graph Land>')
     st.title('_Korea - America_ :green[Money data] :100:')
     
     money = pd.read_csv("money_data7.csv")
