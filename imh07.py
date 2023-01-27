@@ -13,7 +13,11 @@ def  plotting_demo():
     st.title('💖Graph Land💖')
     st.title('_Korea - America_ :green[Money data] :100:')
     
-    money = pd.read_csv("money_data7.csv")
+    uploaded_file = st.file_uploader("Choose a file")
+
+    money=pd.read_csv(uploaded_file)    
+    # money = pd.read_csv("money_data7.csv")
+    
     option = st.selectbox(
         'How would you like to choice year ?',
         ('2020', '2021', '2022'))
@@ -57,4 +61,7 @@ with st.form(key ='Form1'):
         
         
 if select_language =='line gragh':        
-    plotting_demo()      
+    try:
+          plotting_demo()  
+    except:      
+          pass
