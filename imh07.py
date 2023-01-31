@@ -110,5 +110,5 @@ if select_language =='line gragh':
     except:      
           pass
         
-elif select_language =='bar':
+elif select_language =='bar gragh':
     bar_chart()
