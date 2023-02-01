@@ -13,10 +13,10 @@ def  plotting_demo():
     st.title('💖Graph Land💖')
     st.title('_Korea - America_ :green[Money data] :100:')
     
-    uploaded_file = st.file_uploader("Choose a file")
+    # uploaded_file = st.file_uploader("Choose a file")
 
-    money=pd.read_csv(uploaded_file)    
-    # money = pd.read_csv("money_data7.csv")
+    # money=pd.read_csv(uploaded_file)    
+    money = pd.read_csv("money_data7.csv")
     
     option = st.selectbox(
         'How would you like to choice year ?',
@@ -101,14 +101,14 @@ def bar_chart():
 with st.form(key ='Form1'):
     with st.sidebar:
         
-        select_language = st.sidebar.radio('What do you want ?', ('line gragh', 'bar gragh', 'pie gragh', 'histogram gragh', 'corr gragh', 'word gragh', 'box gragh'))
+        select_language = st.sidebar.radio('데이터 분석 결과', ('금리와 집값 빠르게 파악하기', '야구 순위와 승률 빠르게 파악하기', '다른 데이터 분석'))
         
-        
-if select_language =='line gragh':        
+if select_language =='금리와 집값 빠르게 파악하기':           
     try:
           plotting_demo()  
     except:      
           pass
+
         
-elif select_language =='bar gragh':
+elif select_language =='야구 순위와 승률 빠르게 파악하기':
     bar_chart()
