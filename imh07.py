@@ -58,7 +58,7 @@ def  plotting_demo():
 def bar_chart():
 
     st.title('💖Graph Land💖')
-    st.title(':pink[Baseball Record]:baseball:')
+    st.title('_:green[Money data]_⚾')
     
     url = "https://sports.news.naver.com/kbaseball/record/index?category=kbo&year="
 
