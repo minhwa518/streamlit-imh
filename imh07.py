@@ -57,6 +57,9 @@ def  plotting_demo():
     
 def bar_chart():
 
+    st.title('💖Graph Land💖')
+    st.title('_Korea_ :C5[Baseball Record] :100:')
+    
     url = "https://sports.news.naver.com/kbaseball/record/index?category=kbo&year="
 
     years = ['2015', '2016','2017', '2018', '2019', '2020', '2021', '2022' ]
