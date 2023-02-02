@@ -91,6 +91,10 @@ def bar_chart():
     x = df7.팀
     y = df7.승률
     
+    global aa
+    
+    aa = df7
+    
     fig, ax = plt.subplots(figsize=(12,8))
 
     colors = ['C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7' ,'C8', 'C9', 'C10' ]
@@ -124,4 +128,13 @@ if select_language =='금리와 집값 빠르게 파악하기':
 
         
 elif select_language =='야구 순위와 승률 빠르게 파악하기':
-    bar_chart()
+    tab1, tab2 = st.tabs(["📈 Chart", "🗃 Data"])
+   
+    with tab1:
+        tab1.subheader("A tab with a chart")
+        plotting_demo()
+        
+    with tab2:
+        tab2.subheader("A tab with the data")
+        st.dataframe(aa)
+  
