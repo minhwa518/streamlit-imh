@@ -28,7 +28,7 @@ def  plotting_demo():
 
     money = money[:] [money['A_YEAR']== option2]
 
-    global  aa
+    #global  aa
     
     aa = money
     
@@ -91,7 +91,7 @@ def bar_chart():
     x = df7.팀
     y = df7.승률
     
-    global bb
+    #global bb
     
     bb = df7
     
